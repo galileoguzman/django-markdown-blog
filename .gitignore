@@ -1,6 +1,7 @@
 /.venv
 /media
 /public
+*.sqlite3
 *.pyc
 /devDocs
 # Elastic Beanstalk Files
