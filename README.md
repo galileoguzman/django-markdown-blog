@@ -15,24 +15,24 @@ The site was built with:
 
 To run the project you have to have installed:
 
-	Virtualenv
-	python 2.7 || python 3
+		Virtualenv
+		python 2.7 || python 3
 
 
 To run the project follow the next steps
 
 - Create a virtualenv named .venv inside the repository (don't worry we're ignoring)
 
-	virtualenv .venv
+		virtualenv .venv
 
 - After that init the virtual env
 
-	source .venv/bin/activate
+		source .venv/bin/activate
 
 - Now you have to run the migrations, create a super user and run the dev server
 
-	./manage.py migrate
-	./manage.py createsuperuser
-	./manage.py runserver
+		./manage.py migrate
+		./manage.py createsuperuser
+		./manage.py runserver
 
-**Right now the project is set up for add the post via Django Admin.
+**Right now the project is set up for add the post via Django Admin.**
