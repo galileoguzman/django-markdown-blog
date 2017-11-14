@@ -1,0 +1,16 @@
+{% load markdown_deux_tags %}
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Blog with Markdown</title>
+</head>
+<body>
+
+	<h1>This is our blog</h1>
+
+	<h3>{{ post.name }}</h3>
+
+	<p>{{ post.content|markdown }}</p>
+
+</body>
+</html>
